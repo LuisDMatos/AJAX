@@ -20,4 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
         itemSeguindo.innerText = json.followers;
         itemLink.href = json.html_url;
     })
+
+    .cathc(function(erro) {
+        alert("Ocorreu um erro ao preencher os dados")
+    })
 })
